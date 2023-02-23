@@ -1,0 +1,19 @@
+
+
+###
+POST http://localhost:5001/book/
+    Content-Type:application/json
+
+    {
+        "title":"how thing going",
+        "authorId":1,
+        "rating":4.5,
+        "ratingCount":7464819,
+        "reviewCount":7464819,
+        "description":"thing book make thing people well",
+        "pages":309,
+        "dateOfPublication":"November 1st 2003",
+        "editionLanguage":"English",
+        "price":750,
+        "onlineStores":"Amazon, Audible,Google play, Indigo,Abebooks",
+    }
